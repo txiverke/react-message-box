@@ -1,0 +1,28 @@
+{
+  "name": "react-message-box",
+  "version": "1.0.0",
+  "description": "React message box.",
+  "main": "mbox.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kikimo/react-message-box.git"
+  },
+  "keywords": [
+    "react",
+    "message",
+    "box"
+  ],
+  "author": "fzuwwl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kikimo/react-message-box/issues"
+  },
+  "homepage": "https://github.com/kikimo/react-message-box#readme",
+  "dependencies": {
+    "react": "^15.4.1",
+    "react-bootstrap": "^0.30.7"
+  }
+}
