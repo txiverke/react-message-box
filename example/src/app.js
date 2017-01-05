@@ -1,7 +1,7 @@
 import React from 'react';
 import {Modal, Button} from 'react-bootstrap'
 
-export default class MessageBox extends React.Component {
+class MessageBox extends React.Component {
     constructor(props) {
 		super(props);
 
@@ -93,4 +93,34 @@ export default class MessageBox extends React.Component {
 		)
     }
 }
+
+
+
+class App extends React.Component {
+	showAlert() {
+		this.refs.messageBox.alert("Alert", "This is alert!").ok(() => {
+			console.log("Alert ok!");
+		});
+	}
+
+	showConfirm() {
+		this.refs.messageBox.confirm("Confirm", "This is confirm!").ok(() => {
+			console.log("Confirm ok!");
+		}).cancle(() => {
+			console.log("Confirm cancle!");
+		});
+	}
+
+	render() {
+		return (
+			<div>
+				<Button onClick={this.showAlert.bind(this)}>Alert Box</Button>
+				<Button onClick={this.showConfirm.bind(this)}>Confirm Box</Button>
+				<MessageBox ref="messageBox"/>
+			</div>
+		);
+	}
+}
+
+export default App;
 

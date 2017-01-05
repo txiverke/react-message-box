@@ -17,11 +17,23 @@ module.exports = {
   },
   module: {
     loaders: [
-      {
-        test: /\.js$/,
-        exclude: /node_modules/,
-        loaders: ['babel-loader'],
-      }
+		{
+			test: /\.js$/,
+			exclude: /node_modules/,
+			loaders: ['babel-loader'],
+		},
+		{
+			test: /\.css$/,
+			loader: "style-loader!css-loader",
+		},
+		{ 
+			test: /\.(png|woff|woff2|eot|ttf|svg)$/,
+			loader: "url-loader?limit=100000"
+		},
+		{
+			test: /\.jpg$/,
+			loader: "file-loader"
+		}
     ]
   }
 };

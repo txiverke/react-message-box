@@ -1,3 +1,11 @@
 import React from 'react'
-import MessageBox from 'react-message-box'
+import { render } from 'react-dom'
 
+import 'bootstrap/dist/css/bootstrap.css'
+
+import App from './app'
+
+render(
+  <App />,
+  document.getElementById('root')
+);
