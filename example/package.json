@@ -26,6 +26,7 @@
     "react": "^0.14.7",
     "react-bootstrap": "^0.28.2",
     "react-confirm": "^0.1.0",
-    "react-dom": "^0.14.7"
+    "react-dom": "^0.14.7",
+    "react-message-box": "^1.0.2"
   }
 }

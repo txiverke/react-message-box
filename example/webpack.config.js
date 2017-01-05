@@ -3,7 +3,7 @@ var path = require('path');
 
 module.exports = {
   entry: [
-    './src/index'
+    './index'
   ],
   output: {
     path: './static/',
@@ -19,7 +19,7 @@ module.exports = {
     loaders: [
 		{
 			test: /\.js$/,
-			exclude: /node_modules/,
+			// exclude: /node_modules/,
 			loaders: ['babel-loader'],
 		},
 		{
