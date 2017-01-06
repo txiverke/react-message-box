@@ -4,7 +4,7 @@
   "description": "React message box.",
   "main": "mbox.js",
   "scripts": {
-    "test": "Please put you test here! && exit 0"
+    "test": "echo Please put you test here! && exit 0"
   },
   "repository": {
     "type": "git",
