@@ -1,10 +1,10 @@
 {
   "name": "react-message-box",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "React message box.",
   "main": "mbox.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "Please put you test here! && exit 0"
   },
   "repository": {
     "type": "git",
