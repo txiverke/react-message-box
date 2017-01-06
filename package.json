@@ -1,6 +1,6 @@
 {
   "name": "react-message-box",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "React message box.",
   "main": "mbox.js",
   "scripts": {
